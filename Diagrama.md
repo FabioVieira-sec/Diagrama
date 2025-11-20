@@ -1,4 +1,5 @@
-graph TD
+```mermaid
+[graph TD
     subgraph Loja (Ponto de Venda/Tablet)
         A[Cliente Pede para pagar em EUR (€100)] --> B{Operador insere €100};
         B --> C[Chamada API para BTCPay (Valor: €100)];
@@ -29,4 +30,5 @@ graph TD
     style G fill:#4caf50,stroke:#2e7d32
     style K fill:#ffecb3,stroke:#ff6f00
     style M fill:#c8e6c9,stroke:#388e3c
-    style H fill:#f8bbd0,stroke:#c2185b
+    style H fill:#f8bbd0,stroke:#c2185b]
+```
